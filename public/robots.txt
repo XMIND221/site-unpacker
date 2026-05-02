@@ -12,3 +12,5 @@ Allow: /
 
 User-agent: *
 Allow: /
+
+Sitemap: https://welmaglobal-main.vercel.app/sitemap.xml
