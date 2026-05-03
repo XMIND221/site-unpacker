@@ -10,10 +10,10 @@ import { whatsappContactUrl } from "@/lib/whatsapp";
 import { products } from "@/data/products";
 
 const featured = [
-  products.find((p) => p.slug === "phone-flagship-black"),
-  products.find((p) => p.slug === "hisense-rd23dc"),
-  products.find((p) => p.slug === "salon-broadway"),
-  products.find((p) => p.slug === "phone-overear"),
+  products.find((p) => p.slug === "iphone-17-pro-max"),
+  products.find((p) => p.slug === "macbook-pro-m4"),
+  products.find((p) => p.slug === "galaxy-s25-ultra"),
+  products.find((p) => p.slug === "airpods-pro-3"),
 ].filter(Boolean) as typeof products;
 
 const Index = () => {
