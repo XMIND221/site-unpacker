@@ -1,4 +1,5 @@
 import CategoryPage from "@/components/site/CategoryPage";
+import PhonesHeroCarousel from "@/components/site/PhonesHeroCarousel";
 import hero from "@/assets/cat-telephones.jpg";
 
 const Telephones = () => (
@@ -10,6 +11,7 @@ const Telephones = () => (
     metaTitle="Téléphones & Accessoires — WELMA GLOBAL Dakar"
     metaDescription="Smartphones, écouteurs et accessoires mobiles à Dakar. Commandez sur WhatsApp."
     canonicalPath="/telephones"
+    beforeGrid={<PhonesHeroCarousel />}
   />
 );
 

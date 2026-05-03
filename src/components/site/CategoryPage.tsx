@@ -14,6 +14,8 @@ type Props = {
   metaDescription?: string;
   /** Chemin pour canonical & Open Graph (ex. /electromenager) */
   canonicalPath: string;
+  /** Contenu optionnel inséré entre le hero et la grille produits */
+  beforeGrid?: React.ReactNode;
 };
 
 const CategoryPage = ({
