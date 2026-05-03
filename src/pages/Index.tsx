@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import SiteHeader from "@/components/site/SiteHeader";
 import SiteFooter from "@/components/site/SiteFooter";
 import ProductCard from "@/components/site/ProductCard";
+import HomeCategoriesCarousel from "@/components/home/HomeCategoriesCarousel";
 import { applyPageSeo } from "@/lib/seo";
 import storefront from "@/assets/welma-storefront.png";
 import banner from "@/assets/welma-banner.jpg";
@@ -126,6 +127,8 @@ const Index = () => {
             />
           </div>
         </section>
+
+        <HomeCategoriesCarousel />
 
         <section className="bg-secondary/40 py-20">
           <div className="mx-auto max-w-6xl px-4">
