@@ -26,6 +26,7 @@ const CategoryPage = ({
   metaTitle,
   metaDescription,
   canonicalPath,
+  beforeGrid,
 }: Props) => {
   const items = useMemo(() => products.filter((p) => p.category === category), [category]);
   const subs = useMemo(
@@ -70,6 +71,8 @@ const CategoryPage = ({
             <p className="mt-3 max-w-xl text-base text-muted-foreground md:text-lg">{tagline}</p>
           </div>
         </section>
+
+        {beforeGrid}
 
         <section className="mx-auto max-w-6xl px-4">
           <div className="-mx-1 mb-6 mt-8 flex gap-2 overflow-x-auto pb-1">
